@@ -1,0 +1,50 @@
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 36em) {
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 36em) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 48em) {
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .header-btn {
+    padding: 0.4rem 1.75rem;
+    font-size: 0.875rem;
+  }
+
+  .main-btn {
+    padding: 0.9rem 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 62em) {
+  .logo {
+    width: 175px;
+    height: auto;
+  }
+
+  .header-btn {
+    padding: 0.4rem 1.75rem;
+  }
+  .main-btn {
+    padding: 1rem 4rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 75em) {
+}

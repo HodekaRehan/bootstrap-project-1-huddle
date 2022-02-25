@@ -1,0 +1,84 @@
+/*========== variables ==========*/
+:root {
+  /* colors */
+
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+
+  /* fonts */
+  --heading-font: "Poppins", sans-serif;
+  --main-font: "Open Sans", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+h1,
+h4 {
+  font-family: var(--heading-font);
+}
+
+.header-btn {
+  font-size: 0.75rem;
+  color: var(--Pink);
+  border: 2px solid var(--Pink);
+  border-radius: 2rem;
+  padding: 0.2rem 1.3rem;
+}
+
+.header-btn:hover {
+  color: var(--Light-Pink);
+  border: 2px solid var(--Light-Pink);
+}
+
+.main-btn {
+  background-color: var(--Pink);
+  border: none;
+  color: var(--Very-Pale-Blue);
+  font-size: 0.875rem;
+  padding: 0.75rem 2.5rem;
+  border-radius: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.icon {
+  height: 1.875rem;
+}
+
+.grow {
+  background-color: var(--Very-Pale-Blue);
+}
+
+.curve {
+  width: 100%;
+}
+
+.para {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: var(--Very-Pale-Blue);
+}
+
+.footer-btn {
+  background-color: var(--Pink);
+  color: var(--Very-Pale-Blue);
+}
+
+.footer-btn:hover {
+  background-color: var(--Light-Pink);
+  color: var(--Very-Pale-Blue);
+}
