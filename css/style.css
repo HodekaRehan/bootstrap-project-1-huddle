@@ -48,6 +48,10 @@ h4 {
   border-radius: 2rem;
 }
 
+.main-btn:hover {
+  background-color: var(--Light-Pink);
+}
+
 h2 {
   font-size: 4rem;
 }
@@ -81,4 +85,20 @@ h2 {
 .footer-btn:hover {
   background-color: var(--Light-Pink);
   color: var(--Very-Pale-Blue);
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.fa-facebook-square:hover {
+  color: rgb(66 103 178);
+}
+
+.fa-instagram:hover {
+  color: rgb(138, 58, 185);
+}
+
+.fa-twitter-square:hover {
+  color: #00acee;
 }
